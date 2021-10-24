@@ -4,7 +4,7 @@ import math
 # Giải phương trình bậc ax² + bx + 1 = 0
 # @param a: hệ số bậc 2
 # @param b: hệ số bậc 1
-# @param c: số hạng tự do
+# @param c: hệ số tự do
 """
 def giaiPTBac2(a, b, c):
     # kiểm tra các hệ số
@@ -31,6 +31,6 @@ def giaiPTBac2(a, b, c):
 # Nhập các hệ số
 a = float(input("Nhập hệ số bậc 2, a = "));
 b = float(input("Nhập hệ số bậc 1, b = "));
-c = float(input("Nhập hằng số tự do, c = "));
+c = float(input("Nhập hệ số tự do, c = "));
 # Gọi hàm giải phương trình bậc 2
 giaiPTBac2(a, b, c)
